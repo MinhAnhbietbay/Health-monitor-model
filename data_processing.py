@@ -16,7 +16,7 @@ print("Found", len(csv_files), "csv files")
 desired_columns = ['time', 'tempC', 'accX', 'accY', 'accZ',
                    'gyroX', 'gyroY', 'gyroZ', 'angleX', 'angleY', 'angleZ', 'hr']
 
-# sensitivities (tùy chỉnh nếu bạn biết exact scale)
+# sensitivities (tùy chỉnh exact scale)
 DEFAULT_ACC_LSB_PER_G = 16384.0   # ±2g accCoef = 0.0000611     1 / 16384   → ±2g (16384 LSB/g)
 DEFAULT_GYRO_LSB_PER_DEG = 131.0  # gyroCoef = 0.007633         1 / 131     → ±250°/s (131 LSB/°/s)
 
